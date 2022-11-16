@@ -22,31 +22,29 @@
             android:textSize="24sp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="45dp"
-            android:layout_marginTop="70dp"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:minHeight="48dp"
-            android:text="@string/correo"
-            android:textColor="@android:color/darker_gray"
-            android:autofillHints="" />
-
-        <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/editTextTextEmailAddress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="45dp"
             android:layout_marginTop="25dp"
-            android:autofillHints=""
+            android:autofillHints="@string/correo"
             android:ems="10"
+            android:hint="@string/correo"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="45dp"
+            android:autofillHints="@string/contrase_a"
+            android:ems="10"
+            android:hint="@string/contrase_a"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:text="@string/contrase_a"
-            android:textColor="@android:color/darker_gray"
-            tools:ignore="TextContrastCheck" />
+            android:textColor="@android:color/darker_gray" />
 
         <Button
             android:id="@+id/button"
