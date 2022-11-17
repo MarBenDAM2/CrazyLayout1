@@ -24,7 +24,7 @@
         <EditText
             android:id="@+id/editTextTextEmailAddress"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="65dp"
             android:layout_marginHorizontal="45dp"
             android:layout_marginTop="25dp"
             android:autofillHints="@string/correo"
@@ -37,7 +37,7 @@
         <EditText
             android:id="@+id/editTextTextPersonName3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="62dp"
             android:layout_marginHorizontal="45dp"
             android:autofillHints="@string/contrase_a"
             android:ems="10"
